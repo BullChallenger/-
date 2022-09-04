@@ -1,0 +1,74 @@
+html{
+    font-family: '서울한강체';
+    letter-spacing: 0.1em;
+}
+.modalsel_1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    background: wheat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modalcon {
+    background: rgba(96, 174, 238, 0.7);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );     
+    position: relative;
+    padding: 0px;
+}
+.mo_title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.modalbody{
+    padding: 15px;
+    background: rgb(225, 236, 180);
+}
+label{
+    display: inline-block;
+    max-width: 100%;
+    padding-bottom: 5px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.round_con{
+    padding-right: 10px;
+}
+.r_t{
+    font-weight: 400;
+}
+.modalfoot{
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.mf_btn{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.cs1{
+    width: 60%;
+    float: left;
+}
+.cs2{
+    background: rgb(212, 212, 212);
+    width: 30%;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-family: '서울한강체';
+    letter-spacing: 0.1em;
+}
+ul{
+    list-style: none;
+}
+.top1 {
+    padding: 15px;
+    background: rgb(240, 214, 214);
+    overflow: hidden;
+    
+}
+.nav-head {
+    float: left;
+    
+}
+.nav-home .world1{
+    float: left;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    
+    
+}
+.navbar-nav>li{
+    float: left;
+}
+.navbar-nav>li>a{
+    padding: 15px 20px;
+}
+.login {
+    margin-right: 10px;
+    float: right!important;
+}
+.sr-title{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.war-con{
+    padding: 15px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.box{
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+}
+.box1{
+    border-radius: 5px;
+    background-color: rgb(188, 150, 226);
+    box-shadow: 3px 3px gainsboro;
+}
+.box1:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}    
+.x{
+    width: 50%;
+    max-height: 30px;
+    overflow: hidden;
+    padding-top: 1px;
+}    
+.ch-con{
+    padding: 2.5px;
+    border: none;
+    margin: 2.5px;   
+}
+.a1{
+    width: 50%;
+}
+
+.img1{
+    height: 200px;
+    text-align: center;
+    background-color: rgb(239, 255, 250);
+}
+.worlda{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.worlda:hover{
+    color: rgb(142, 199, 58);
+}    
+.start{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    
+}
+.text1{
+    padding: 10px;
+    position: relative;
+    
+}
+.sub-text1{
+    margin-top: 5px;
+    font-size: 85%;
+}
+
+.start1{
+    padding: 5px 10px;
+    color: red;
+    background-color: transparent;
+    transition: all .5s;
+    border: 1px solid transparent;
+    border-color: red;
+    border-radius: 5px;
+}
+.start1:hover{
+    background: red;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(58, 58, 58);
+}
+
+@media (min-width: 768px){
+    .b1{
+        width: 25%;
+    }
+}
+

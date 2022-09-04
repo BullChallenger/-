@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../Users/hyeon/Documents/회원가입/test"
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"/usr/local/apache-tomcat-10.0.20/lib/jsp-api.jar",
+			"/usr/local/apache-tomcat-10.0.20/lib/servlet-api.jar"
+		],
+		"java.project.sourcePaths": [
+			"."
+		],
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m"
+	}
+}

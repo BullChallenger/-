@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kaushan+Script&family=Nanum+Gothic&display=swap');
+.card-header {
+	font-family: 'Jeju Gothic';
+}
+
+#RBwright .card-text {
+	font-family: 'Nanum Gothic';
+	text-align: left;
+	font-size: 12px;
+}
+
+#RBwright .card-header {
+	text-align: left;
+	font-size: 13px;
+}
+
